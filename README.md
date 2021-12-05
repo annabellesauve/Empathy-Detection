@@ -15,11 +15,11 @@ This project is implemented using Python, TensorFlow and we use  Google Colab en
 ## Data Preprocessing
 The code to preprocess the data can be found in `dataprocessing.ipynb`. The datasets included in this repository named `processed_emotionalreactions.csv`,`processed_explorations-reddit.csv`,`processed_interpretations-reddit.csv` is the result from pre-processing of `emotionalreactions.csv`,`explorations-reddit.csv`,`interpretations-reddit.csv` .
 
-## Pre-trained Language Model
+## Adaptive Domain Pre-trained Language Model
 
 The code to implement pre-trained language model based on empathy context using BERT can be found in `Pre-training.ipynb`. We use `emotional-reactions_Test-reddit.csv`, `explorations_Test-reddit.csv`,`interpretations_Test-reddit.csv` datasets as test files to evaluate our masked language model.
 
-## Trained Models
+## Bi- Encoder Trained Models
 The trained models can be accessed under `/Trained Models`. They are organized according to the communication mechanisms, namely emotional reactions (`training_empathy_ER`), explorations (`training_empathy_EX`), and interpretations (`training_empathy_IN`).
 
 ## Bi-encoder Model Training and Evaluation
