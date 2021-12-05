@@ -19,8 +19,8 @@ The code to preprocess the data can be found in `dataprocessing.ipynb`. The data
 
 The code to implement pre-trained language model based on empathy context using BERT can be found in `Pre-training.ipynb`. We use `emotional-reactions_Test-reddit.csv`, `explorations_Test-reddit.csv`,`interpretations_Test-reddit.csv` datasets as test files to evaluate our masked language model.
 
-## Pre-Trained Models
-The pre-trained models can be accessed under `/Trained Models`. They are organized according to the communication mechanisms, namely emotional reactions (`training_empathy_ER`), explorations (`training_empathy_EX`), and interpretations (`training_empathy_IN`).
+## Trained Models
+The trained models can be accessed under `/Trained Models`. They are organized according to the communication mechanisms, namely emotional reactions (`training_empathy_ER`), explorations (`training_empathy_EX`), and interpretations (`training_empathy_IN`).
 
 ## Bi-encoder Model Training and Evaluation
 To train, test and evaluate the models, you need to run the respective cells from the `model` notebook.
