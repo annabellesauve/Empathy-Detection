@@ -8,15 +8,18 @@ This repository is a reproduction of *A Computational Approach to Understanding 
 In the original work, there are 3 different datasets for emotional reactions, explorations and interpretations. All datasets used in this code can be found under `/Datasets`. 
 
 ### Source Code
-This project is implemented in Python and we use  Google Colab environment to run (`dataprocessing.ipynb`,`Pre-training.ipynb`,`model.ipynb`) notebooks. 
+This project is implemented using Python, TensorFlow and we use  Google Colab environment to run (`dataprocessing.ipynb`,`Pre-training.ipynb`,`model.ipynb`) notebooks. 
 
 **Note:**  Google account is needed to run the code and save datasets and models in google drive directory .  
 
 ## Data Preprocessing
 The code to preprocess the data can be found in `dataprocessing.ipynb`. The datasets included in this repository have already been preprocessed.
 
-## Training, Evaluation
-To train and evaluate the models, run the respective cells from the `model` notebook.
+## Pre-trained Language Model
 
 ## Pre-Trained Models
 The pre-trained models can be accessed under `/Trained Models`. They are organized according to the communication mechanisms, namely emotional reactions (`training_empathy_ER`), explorations (`training_empathy_EX`), and interpretations (`training_empathy_IN`).
+
+## Bi- encoder Model Training, Evaluation
+To train, test and evaluate the models, you need to run the respective cells from the `model` notebook.
+
